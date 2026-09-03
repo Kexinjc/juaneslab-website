@@ -261,22 +261,6 @@ a.jl-card:hover {
 #projects-list .col-12 > h3 {
   margin-top: 0.25rem;
 }
-.jl-project-photo {
-  max-width: 300px;
-  margin: 1.4rem auto 1.9rem;
-  text-align: center;
-}
-.jl-project-photo img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
-}
-.jl-project-photo p {
-  margin: 0.6rem 0 0;
-  font-size: 0.78rem;
-  opacity: 0.6;
-}
 .jl-project-sponsor {
   font-size: 0.88rem;
   font-weight: 600;
@@ -288,6 +272,59 @@ hr.jl-project-sep {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 2.5rem 0;
+}
+
+// Projects with a photo: an alternating text/image row instead of a
+// centered image stacked below the text, for more visual rhythm as the
+// page scrolls.
+.jl-project-row {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+  margin: 0.5rem 0;
+}
+.jl-project-row--reverse {
+  flex-direction: row-reverse;
+}
+.jl-project-copy {
+  flex: 1 1 55%;
+  min-width: 0;
+}
+#projects-list .jl-project-copy > p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+#projects-list .jl-project-copy > h3 {
+  margin-top: 0;
+}
+.jl-project-media {
+  flex: 0 0 36%;
+  max-width: 280px;
+}
+.jl-project-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.16);
+  display: block;
+}
+.jl-project-media p {
+  margin: 0.6rem 0 0;
+  font-size: 0.78rem;
+  opacity: 0.6;
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .jl-project-row,
+  .jl-project-row--reverse {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .jl-project-media {
+    max-width: 260px;
+    margin: 0 auto;
+  }
 }
 
 // ---- Publications page ----
