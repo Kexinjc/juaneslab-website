@@ -74,7 +74,7 @@ sections:
     content:
       title: Funding and support
       text: |
-        The lab's research is supported by competitive grants and fellowships from national and international funders and institutions.
+        The lab's research is supported by competitive grants and fellowships from national and international funders and institutions. See the [Projects]({{< relurl "/projects/" >}}) page for the current list of grants.
 
         <div class="jl-funder-logos">
           <img src="{{< relurl "/media/cipf-logo.png" >}}" alt="CIPF — Centro de Investigación Príncipe Felipe" loading="lazy" />
