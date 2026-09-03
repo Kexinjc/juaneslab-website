@@ -17,7 +17,7 @@ sections:
         </div>
         <div class="jl-hero-ctas">
           <a href="#research" class="jl-btn jl-btn-primary">Explore our research</a>
-          <a href="/people/" class="jl-btn jl-btn-ghost">Meet the team</a>
+          <a href="{{< relurl "/people/" >}}" class="jl-btn jl-btn-ghost">Meet the team</a>
         </div>
 
   - block: markdown
@@ -43,8 +43,8 @@ sections:
       subtitle: Four lines of research, one shared goal
       text: |
         <div class="jl-card-grid">
-          <a class="jl-card" href="/research/cell-migration-invasion/">
-            <div class="jl-card-media"><img src="/media/research-migration.png" alt="Confocal microscopy image of a cell spheroid used to study collective migration and invasion" loading="lazy" /></div>
+          <a class="jl-card" href="{{< relurl "/research/cell-migration-invasion/" >}}">
+            <div class="jl-card-media"><img src="{{< relurl "/media/research-migration.png" >}}" alt="Confocal microscopy image of a cell spheroid used to study collective migration and invasion" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">01</span>
               <h3>Cell migration and invasion</h3>
@@ -52,8 +52,8 @@ sections:
               <span class="jl-card-link">Learn more →</span>
             </div>
           </a>
-          <a class="jl-card" href="/research/early-diagnosis/">
-            <div class="jl-card-media"><img src="/media/research-diagnosis.png" alt="Confocal microscopy image of cancer cells used in biomarker research" loading="lazy" /></div>
+          <a class="jl-card" href="{{< relurl "/research/early-diagnosis/" >}}">
+            <div class="jl-card-media"><img src="{{< relurl "/media/research-diagnosis.png" >}}" alt="Confocal microscopy image of cancer cells used in biomarker research" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">02</span>
               <h3>Early diagnosis</h3>
@@ -61,8 +61,8 @@ sections:
               <span class="jl-card-link">Learn more →</span>
             </div>
           </a>
-          <a class="jl-card" href="/research/drug-discovery/">
-            <div class="jl-card-media"><img src="/media/research-drugdiscovery.png" alt="Molecular docking model of a candidate anticancer compound" loading="lazy" /></div>
+          <a class="jl-card" href="{{< relurl "/research/drug-discovery/" >}}">
+            <div class="jl-card-media"><img src="{{< relurl "/media/research-drugdiscovery.png" >}}" alt="Molecular docking model of a candidate anticancer compound" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">03</span>
               <h3>Drug discovery</h3>
@@ -70,8 +70,8 @@ sections:
               <span class="jl-card-link">Learn more →</span>
             </div>
           </a>
-          <a class="jl-card" href="/research/cell-metabolism/">
-            <div class="jl-card-media"><img src="/media/research-metabolism.png" alt="Confocal microscopy image showing mitochondria in cultured cells" loading="lazy" /></div>
+          <a class="jl-card" href="{{< relurl "/research/cell-metabolism/" >}}">
+            <div class="jl-card-media"><img src="{{< relurl "/media/research-metabolism.png" >}}" alt="Confocal microscopy image showing mitochondria in cultured cells" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">04</span>
               <h3>Cell metabolism</h3>
@@ -80,7 +80,7 @@ sections:
             </div>
           </a>
         </div>
-        <p class="jl-note"><a href="/research/">See the full Research page →</a></p>
+        <p class="jl-note"><a href="{{< relurl "/research/" >}}">See the full Research page →</a></p>
     design:
       columns: '1'
 
@@ -188,9 +188,9 @@ sections:
           <p class="jl-footer-line"><a href="mailto:majuanes@cipf.es">majuanes@cipf.es</a> &middot; +34 963289680 ext. 2116</p>
           <p class="jl-footer-line">CIPF — Centro de Investigación Príncipe Felipe<br>C/ Eduardo Primo Yúfera, 3 · 46012 Valencia, Spain</p>
           <div class="jl-footer-brand">
-            <img src="/media/juanes-lab-logo.png" alt="Juanes Lab" class="jl-footer-logo" />
-            <img src="/media/cipf-logo.png" alt="CIPF — Valencia Biomedical Research Foundation" class="jl-footer-cipf" />
-            <img src="/media/juaneslab-qr.png" alt="QR code to juaneslab.com" class="jl-footer-qr" />
+            <img src="{{< relurl "/media/juanes-lab-logo.png" >}}" alt="Juanes Lab" class="jl-footer-logo" />
+            <img src="{{< relurl "/media/cipf-logo.png" >}}" alt="CIPF — Valencia Biomedical Research Foundation" class="jl-footer-cipf" />
+            <img src="{{< relurl "/media/juaneslab-qr.png" >}}" alt="QR code to juaneslab.com" class="jl-footer-qr" />
           </div>
         </div>
     design:

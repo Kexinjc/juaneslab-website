@@ -27,8 +27,8 @@ sections:
       title:
       text: |
         <div class="jl-card-grid">
-          <a class="jl-card" href="/research/cell-migration-invasion/">
-            <div class="jl-card-media"><img src="/media/research-migration.png" alt="Confocal microscopy image of a cell spheroid used to study collective migration and invasion" loading="lazy" /></div>
+          <a class="jl-card" href="{{< relurl "/research/cell-migration-invasion/" >}}">
+            <div class="jl-card-media"><img src="{{< relurl "/media/research-migration.png" >}}" alt="Confocal microscopy image of a cell spheroid used to study collective migration and invasion" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">01</span>
               <h3>Cell migration and invasion</h3>
@@ -36,8 +36,8 @@ sections:
               <span class="jl-card-link">Learn more →</span>
             </div>
           </a>
-          <a class="jl-card" href="/research/early-diagnosis/">
-            <div class="jl-card-media"><img src="/media/research-diagnosis.png" alt="Confocal microscopy image of cancer cells used in biomarker research" loading="lazy" /></div>
+          <a class="jl-card" href="{{< relurl "/research/early-diagnosis/" >}}">
+            <div class="jl-card-media"><img src="{{< relurl "/media/research-diagnosis.png" >}}" alt="Confocal microscopy image of cancer cells used in biomarker research" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">02</span>
               <h3>Early diagnosis</h3>
@@ -45,8 +45,8 @@ sections:
               <span class="jl-card-link">Learn more →</span>
             </div>
           </a>
-          <a class="jl-card" href="/research/drug-discovery/">
-            <div class="jl-card-media"><img src="/media/research-drugdiscovery.png" alt="Molecular docking model of a candidate anticancer compound" loading="lazy" /></div>
+          <a class="jl-card" href="{{< relurl "/research/drug-discovery/" >}}">
+            <div class="jl-card-media"><img src="{{< relurl "/media/research-drugdiscovery.png" >}}" alt="Molecular docking model of a candidate anticancer compound" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">03</span>
               <h3>Drug discovery</h3>
@@ -54,8 +54,8 @@ sections:
               <span class="jl-card-link">Learn more →</span>
             </div>
           </a>
-          <a class="jl-card" href="/research/cell-metabolism/">
-            <div class="jl-card-media"><img src="/media/research-metabolism.png" alt="Confocal microscopy image showing mitochondria in cultured cells" loading="lazy" /></div>
+          <a class="jl-card" href="{{< relurl "/research/cell-metabolism/" >}}">
+            <div class="jl-card-media"><img src="{{< relurl "/media/research-metabolism.png" >}}" alt="Confocal microscopy image showing mitochondria in cultured cells" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">04</span>
               <h3>Cell metabolism</h3>

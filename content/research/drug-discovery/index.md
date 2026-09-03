@@ -11,7 +11,7 @@ sections:
       image:
         filename: research-drugdiscovery.png
       text: |
-        <a class="jl-back-link" href="/research/">← Back to Research</a>
+        <a class="jl-back-link" href="{{< relurl "/research/" >}}">← Back to Research</a>
         <div class="jl-hero-eyebrow">Research line 03</div>
         <div class="jl-hero-rule">
           <p class="jl-hero-tagline">AI-assisted, structure-based discovery of anticancer compounds, from in silico prediction to validation in cellular and animal models.</p>

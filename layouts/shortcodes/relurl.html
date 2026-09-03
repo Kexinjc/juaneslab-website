@@ -1,0 +1,21 @@
+{{- /*
+  Juanes Lab custom shortcode: baseURL-aware root-relative URL.
+
+  Hugo Blox widgets (block: markdown) render their `content.text` field
+  through `.Page.RenderString`, which supports Hugo shortcodes. This lets
+  hand-written hrefs/srcs inside those text blocks resolve correctly
+  whether the site is served from a domain root (https://juaneslab.com/)
+  or a GitHub Pages project subpath
+  (https://kexinjc.github.io/juaneslab-website/).
+
+  Note: Hugo's `relURL` does NOT prepend the baseURL's path prefix when
+  given a path that already starts with "/" (it treats that as already
+  site-root-absolute). So we strip a leading "/" before calling relURL,
+  meaning callers can write either {{< relurl "/research/" >}} or
+  {{< relurl "research/" >}} and get the same, correct result.
+
+  Usage: {{< relurl "/research/" >}} or {{< relurl "/media/photo.png" >}}
+*/ -}}
+{{- $path := .Get 0 -}}
+{{- $path = strings.TrimPrefix "/" $path -}}
+{{- relURL $path -}}

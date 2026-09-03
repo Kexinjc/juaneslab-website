@@ -11,7 +11,7 @@ sections:
       image:
         filename: research-diagnosis.png
       text: |
-        <a class="jl-back-link" href="/research/">← Back to Research</a>
+        <a class="jl-back-link" href="{{< relurl "/research/" >}}">← Back to Research</a>
         <div class="jl-hero-eyebrow">Research line 02</div>
         <div class="jl-hero-rule">
           <p class="jl-hero-tagline">Novel genetic signatures and biomarkers for the early detection of human cancers, to improve diagnosis and personalized therapy.</p>
@@ -34,7 +34,7 @@ sections:
       title:
       text: |
         <div class="jl-research-figure">
-          <img src="/media/research-diagnosis-heatmap.png" alt="Differential gene expression heatmap comparing APC-mutant and wild-type samples" loading="lazy" />
+          <img src="{{< relurl "/media/research-diagnosis-heatmap.png" >}}" alt="Differential gene expression heatmap comparing APC-mutant and wild-type samples" loading="lazy" />
           <p class="jl-research-figure-caption">Differential gene expression heatmap comparing APC-mutant (m4) and wild-type (WT) samples — Juanes Lab.</p>
         </div>
     design:

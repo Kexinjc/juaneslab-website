@@ -11,7 +11,7 @@ sections:
       image:
         filename: research-metabolism.png
       text: |
-        <a class="jl-back-link" href="/research/">← Back to Research</a>
+        <a class="jl-back-link" href="{{< relurl "/research/" >}}">← Back to Research</a>
         <div class="jl-hero-eyebrow">Research line 04</div>
         <div class="jl-hero-rule">
           <p class="jl-hero-tagline">How the actin cytoskeleton relates to metabolic plasticity, and how cells respond energetically to stress.</p>
@@ -34,7 +34,7 @@ sections:
       title:
       text: |
         <div class="jl-research-figure">
-          <img src="/media/research-metabolism-seahorse.png" alt="Mitochondrial stress test schematic showing oxygen consumption rate over time" loading="lazy" />
+          <img src="{{< relurl "/media/research-metabolism-seahorse.png" >}}" alt="Mitochondrial stress test schematic showing oxygen consumption rate over time" loading="lazy" />
           <p class="jl-research-figure-caption">Mitochondrial stress test (oxygen consumption rate) schematic, illustrating the respirometry readouts used in the lab's bioenergetics work — basal respiration, ATP-linked respiration, maximal respiratory capacity and reserve capacity.</p>
         </div>
     design:

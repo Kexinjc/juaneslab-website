@@ -11,7 +11,7 @@ sections:
       image:
         filename: research-migration.png
       text: |
-        <a class="jl-back-link" href="/research/">← Back to Research</a>
+        <a class="jl-back-link" href="{{< relurl "/research/" >}}">← Back to Research</a>
         <div class="jl-hero-eyebrow">Research line 01</div>
         <div class="jl-hero-rule">
           <p class="jl-hero-tagline">How the cytoskeleton controls cell adhesion and coordination during collective migration, and how this is subverted during cancer invasion.</p>
