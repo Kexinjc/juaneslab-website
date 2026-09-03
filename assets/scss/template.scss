@@ -223,6 +223,36 @@ a.jl-card:hover {
   border-radius: 3px;
 }
 
+// ---- Projects page ----
+.jl-project-photo {
+  max-width: 300px;
+  margin: 1.25rem auto 1.75rem;
+  text-align: center;
+}
+.jl-project-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.14);
+}
+.jl-project-photo p {
+  margin: 0.6rem 0 0;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.jl-project-sponsor {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--jl-gold-dark);
+  margin: 0 0 0.6rem;
+  letter-spacing: 0.01em;
+}
+hr.jl-project-sep {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 2.25rem 0;
+}
+
 // ---- Research line pages ----
 .jl-back-link {
   display: inline-block;
