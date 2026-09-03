@@ -108,9 +108,22 @@ a.jl-btn-ghost:hover {
 .hero-lead {
   margin-top: 1.5rem;
 }
+#section-hero .row {
+  align-items: center;
+}
 #section-hero .hero-media img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: 78% 28%;
   border-radius: 12px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+@media (max-width: 767px) {
+  #section-hero .hero-media img {
+    aspect-ratio: 16 / 10;
+    object-position: 75% 30%;
+  }
 }
 
 // ---- Research cards ----
@@ -172,6 +185,18 @@ a.jl-btn-ghost:hover {
   opacity: 0.6;
   font-style: italic;
   text-align: center;
+}
+
+// ---- About us (compact) ----
+#about p,
+#about ul {
+  margin-bottom: 0.75rem;
+}
+#about ul {
+  margin-top: 0.15rem;
+}
+#about li {
+  margin-bottom: 0.35rem;
 }
 
 // ---- Texture divider ----
@@ -247,6 +272,34 @@ a.jl-btn-ghost:hover {
   height: 1px;
   background: rgba(0, 0, 0, 0.1);
   margin: 2.25rem 0;
+}
+@media (min-width: 900px) {
+  .jl-testimonials {
+    max-width: 1180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    align-items: start;
+  }
+  .jl-testimonial-sep {
+    display: none;
+  }
+  .jl-testimonial {
+    padding-left: 2.25rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .jl-testimonial:first-of-type {
+    padding-left: 0;
+    border-left: none;
+  }
+  .jl-quote-mark {
+    font-size: 2.75rem;
+    top: -0.4rem;
+  }
+  .jl-testimonial-text {
+    font-size: 1.05rem;
+    line-height: 1.5;
+  }
 }
 
 // ---- Full-bleed photo sections ----

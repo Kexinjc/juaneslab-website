@@ -33,6 +33,8 @@ sections:
         - Identifying novel genetic signatures and/or biomarkers for the early detection of human cancers, to ultimately improve cancer diagnosis and assist in personalized therapy.
     design:
       columns: '1'
+      spacing:
+        padding: ['48px', '0', '32px', '0']
 
   - block: markdown
     id: research
@@ -118,7 +120,7 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['88px', '0', '88px', '0']
+        padding: ['130px', '0', '130px', '0']
 
   - block: markdown
     id: testimonials
@@ -170,7 +172,7 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['40px', '0', '40px', '0']
+        padding: ['110px', '0', '110px', '0']
 
   - block: markdown
     id: contact
