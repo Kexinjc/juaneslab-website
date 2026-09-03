@@ -9,6 +9,35 @@
   --jl-cream: #faf6f0;
 }
 
+// ---- Global typography: slightly smaller base size, more breathing room ----
+// The theme's default base size (21px root on desktop, 16.17px on mobile)
+// read as noticeably larger than the nav bar text. This scales the whole
+// site's rem-based type down a step on both breakpoints. The navbar itself
+// is unaffected (it's set from a fixed px value, not rem), and anything
+// with its own more specific rule (hero, cards, testimonials, etc.) still
+// wins since these rules are written at the lowest possible specificity
+// via :where().
+html {
+  font-size: 15px;
+}
+@media screen and (min-width: 58em) {
+  html {
+    font-size: 18px;
+  }
+}
+:where(.page-body) p {
+  line-height: 1.7;
+  margin-bottom: 1.15rem;
+}
+:where(.page-body) ul,
+:where(.page-body) ol {
+  margin-bottom: 1.35rem;
+}
+:where(.page-body) li {
+  line-height: 1.65;
+  margin-bottom: 0.4rem;
+}
+
 .universal-wrapper h1 {
   text-align: center;
 }
