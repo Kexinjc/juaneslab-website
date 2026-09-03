@@ -438,7 +438,7 @@ hr.jl-project-sep {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3rem;
-    align-items: start;
+    align-items: stretch;
   }
   .jl-testimonial-sep {
     display: none;
