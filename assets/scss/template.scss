@@ -134,13 +134,20 @@ a.jl-btn-ghost:hover {
   margin-top: 2rem;
   text-align: left;
 }
-.jl-card {
+a.jl-card {
   background: var(--jl-cream);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 14px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  color: inherit;
+  text-decoration: none !important;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+a.jl-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 .jl-card-media {
   aspect-ratio: 4 / 3;
@@ -179,11 +186,55 @@ a.jl-btn-ghost:hover {
   line-height: 1.5;
   font-size: 0.95rem;
 }
+.jl-card-link {
+  display: inline-block;
+  margin-top: 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--jl-gold-dark);
+}
 .jl-note {
   margin-top: 1.5rem;
   font-size: 0.9rem;
   opacity: 0.6;
   font-style: italic;
+  text-align: center;
+}
+.jl-note a {
+  color: var(--jl-gold-dark);
+  text-decoration: none;
+}
+.jl-note a:hover {
+  text-decoration: underline;
+}
+
+// ---- Research line pages ----
+.jl-back-link {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--jl-gold-dark);
+  text-decoration: none;
+}
+.jl-back-link:hover {
+  text-decoration: underline;
+}
+.jl-research-figure {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.jl-research-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+.jl-research-figure-caption {
+  margin: 1rem 0 0;
+  font-size: 0.85rem;
+  opacity: 0.65;
   text-align: center;
 }
 

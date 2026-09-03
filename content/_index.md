@@ -43,40 +43,44 @@ sections:
       subtitle: Four lines of research, one shared goal
       text: |
         <div class="jl-card-grid">
-          <div class="jl-card">
+          <a class="jl-card" href="/research/cell-migration-invasion/">
             <div class="jl-card-media"><img src="/media/research-migration.png" alt="Confocal microscopy image of a cell spheroid used to study collective migration and invasion" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">01</span>
               <h3>Cell migration and invasion</h3>
               <p>How the cytoskeleton controls cell adhesion and coordination during collective migration, and how this is subverted during cancer invasion.</p>
+              <span class="jl-card-link">Learn more →</span>
             </div>
-          </div>
-          <div class="jl-card">
+          </a>
+          <a class="jl-card" href="/research/early-diagnosis/">
             <div class="jl-card-media"><img src="/media/research-diagnosis.png" alt="Confocal microscopy image of cancer cells used in biomarker research" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">02</span>
               <h3>Early diagnosis</h3>
               <p>Novel genetic signatures and biomarkers for the early detection of human cancers, to improve diagnosis and personalized therapy.</p>
+              <span class="jl-card-link">Learn more →</span>
             </div>
-          </div>
-          <div class="jl-card">
+          </a>
+          <a class="jl-card" href="/research/drug-discovery/">
             <div class="jl-card-media"><img src="/media/research-drugdiscovery.png" alt="Molecular docking model of a candidate anticancer compound" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">03</span>
               <h3>Drug discovery</h3>
               <p>AI-assisted, structure-based discovery of anticancer compounds, from in silico prediction to validation in cellular and animal models.</p>
+              <span class="jl-card-link">Learn more →</span>
             </div>
-          </div>
-          <div class="jl-card">
+          </a>
+          <a class="jl-card" href="/research/cell-metabolism/">
             <div class="jl-card-media"><img src="/media/research-metabolism.png" alt="Confocal microscopy image showing mitochondria in cultured cells" loading="lazy" /></div>
             <div class="jl-card-body">
               <span class="jl-card-num">04</span>
               <h3>Cell metabolism</h3>
               <p>How the actin cytoskeleton relates to metabolic plasticity, and how cells respond energetically to stress.</p>
+              <span class="jl-card-link">Learn more →</span>
             </div>
-          </div>
+          </a>
         </div>
-        <p class="jl-note">A dedicated page for each research line is coming in the next phase of the site.</p>
+        <p class="jl-note"><a href="/research/">See the full Research page →</a></p>
     design:
       columns: '1'
 
