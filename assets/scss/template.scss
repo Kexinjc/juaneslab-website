@@ -224,9 +224,17 @@ a.jl-card:hover {
 }
 
 // ---- Projects page ----
+#projects-list .col-12 > p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+#projects-list .col-12 > h3 {
+  margin-top: 0.25rem;
+}
 .jl-project-photo {
   max-width: 300px;
-  margin: 1.25rem auto 1.75rem;
+  margin: 1.4rem auto 1.9rem;
   text-align: center;
 }
 .jl-project-photo img {
@@ -237,20 +245,46 @@ a.jl-card:hover {
 }
 .jl-project-photo p {
   margin: 0.6rem 0 0;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   opacity: 0.6;
 }
 .jl-project-sponsor {
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 600;
   color: var(--jl-gold-dark);
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.75rem;
   letter-spacing: 0.01em;
 }
 hr.jl-project-sep {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 2.25rem 0;
+  margin: 2.5rem 0;
+}
+
+// ---- Publications page ----
+#publications-list .col-12 > p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+#publications-list .col-12 h4 {
+  font-size: 1.3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.1rem;
+}
+#publications-list .col-12 h4:first-of-type {
+  margin-top: 0;
+}
+#publications-list .col-12 ul {
+  padding-left: 1.35rem;
+  margin-bottom: 0.5rem;
+}
+#publications-list .col-12 li {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  margin-bottom: 1.05rem;
+}
+#publications-list .col-12 li:last-child {
+  margin-bottom: 0;
 }
 
 // ---- Research line pages ----
