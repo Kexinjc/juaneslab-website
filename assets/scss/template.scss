@@ -1,6 +1,6 @@
-// Juanes Lab — custom identity styles (Phase 1: homepage + global identity)
+// Juanes Lab — custom identity styles (Phase 1, iteration 2)
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap');
 
 :root {
   --jl-gold: #c9a227;
@@ -9,12 +9,10 @@
   --jl-cream: #faf6f0;
 }
 
-// Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
   text-align: center;
 }
 
-// Center the CTA shortcode button
 .cta-group {
   justify-content: center;
 }
@@ -28,10 +26,97 @@ h1, h2, h3, .h1, .h2, .h3 {
   font-weight: 600;
 }
 
-// Research line cards
+// ---- Hero ----
+.jl-hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--jl-gold-dark);
+  margin-bottom: 1rem;
+}
+.jl-hero-rule {
+  border-left: 3px solid var(--jl-gold);
+  padding-left: 1.1rem;
+  margin-bottom: 1.75rem;
+}
+.jl-hero-tagline {
+  font-size: 1.2rem;
+  line-height: 1.55;
+  margin: 0;
+  opacity: 0.85;
+}
+.jl-hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 0.5rem;
+}
+a.jl-btn,
+a.jl-btn:hover,
+a.jl-btn:focus,
+a.jl-btn:active {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  transition: opacity 0.15s ease, background-color 0.15s ease;
+}
+a.jl-btn-primary {
+  background: var(--jl-black);
+  color: #fff !important;
+}
+a.jl-btn-primary:hover {
+  opacity: 0.85;
+}
+a.jl-btn-ghost {
+  background: transparent;
+  color: var(--jl-black) !important;
+  border: 1.5px solid var(--jl-black);
+}
+a.jl-btn-ghost:hover {
+  background: var(--jl-black);
+  color: #fff !important;
+}
+
+// Give the hero heading a small gold underline for a less generic, more
+// distinctive mark without altering the theme's own hero layout.
+.hero-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.4rem;
+}
+.hero-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 64px;
+  height: 4px;
+  background: var(--jl-gold);
+  border-radius: 2px;
+}
+.text-md-left .hero-title::after {
+  left: 0;
+}
+.text-center .hero-title::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.hero-lead {
+  margin-top: 1.5rem;
+}
+#section-hero .hero-media img {
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+// ---- Research cards ----
 .jl-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.75rem;
   margin-top: 2rem;
   text-align: left;
@@ -40,7 +125,27 @@ h1, h2, h3, .h1, .h2, .h3 {
   background: var(--jl-cream);
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 14px;
-  padding: 1.75rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.jl-card-media {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #000;
+}
+.jl-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+.jl-card:hover .jl-card-media img {
+  transform: scale(1.04);
+}
+.jl-card-body {
+  padding: 1.5rem 1.6rem 1.75rem;
 }
 .jl-card-num {
   display: block;
@@ -53,12 +158,13 @@ h1, h2, h3, .h1, .h2, .h3 {
 }
 .jl-card h3 {
   margin: 0 0 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 }
 .jl-card p {
   margin: 0;
   opacity: 0.85;
   line-height: 1.5;
+  font-size: 0.95rem;
 }
 .jl-note {
   margin-top: 1.5rem;
@@ -68,37 +174,22 @@ h1, h2, h3, .h1, .h2, .h3 {
   text-align: center;
 }
 
-// Testimonials
-.jl-quote-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.75rem;
-  margin-top: 1.5rem;
-  text-align: left;
-}
-.jl-quote {
+// ---- Texture divider ----
+.jl-texture-caption {
   margin: 0;
-  padding: 1.75rem;
-  background: #fff;
-  border-left: 3px solid var(--jl-gold);
-  border-radius: 4px;
-  font-style: italic;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-}
-.jl-quote p {
-  margin: 0 0 0.75rem;
-  line-height: 1.6;
-}
-.jl-quote cite {
-  font-style: normal;
-  font-weight: 600;
-  opacity: 0.75;
-  font-size: 0.9rem;
-  display: block;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
 }
 
-// Full-bleed photo sections (CIPF building, team photo)
-.jl-photo-caption {
+// ---- CIPF photo section ----
+.jl-scrim {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+  padding: 1.5rem 2.25rem;
+  border-radius: 10px;
   color: #fff;
   text-align: center;
 }
@@ -106,15 +197,70 @@ h1, h2, h3, .h1, .h2, .h3 {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.8rem;
-  opacity: 0.85;
+  opacity: 0.9;
   margin-bottom: 0.5rem;
 }
-.jl-photo-caption p {
-  font-size: 1.15rem;
+.jl-scrim p {
+  font-size: 1.1rem;
   margin: 0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
-// Dark contact / footer band
+// ---- Testimonials (editorial, stacked) ----
+.jl-testimonials {
+  max-width: 760px;
+  margin: 2rem auto 0;
+  text-align: left;
+}
+.jl-testimonial {
+  position: relative;
+  padding-left: 2.75rem;
+}
+.jl-quote-mark {
+  position: absolute;
+  left: 0;
+  top: -0.75rem;
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 3.75rem;
+  color: var(--jl-gold);
+  opacity: 0.5;
+  line-height: 1;
+}
+.jl-testimonial-text {
+  font-family: 'Fraunces', Georgia, serif;
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.55;
+  margin: 0 0 1rem;
+}
+.jl-testimonial-name {
+  font-weight: 600;
+  margin: 0;
+  font-size: 0.95rem;
+}
+.jl-testimonial-role {
+  margin: 0.15rem 0 0;
+  opacity: 0.65;
+  font-size: 0.88rem;
+}
+.jl-testimonial-sep {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 2.25rem 0;
+}
+
+// ---- Full-bleed photo sections ----
+.jl-photo-caption {
+  color: #fff;
+  text-align: center;
+}
+.jl-photo-caption p {
+  font-size: 1.05rem;
+  margin: 0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+// ---- Dark contact / footer band ----
 .jl-footer {
   text-align: center;
   color: #fff;
@@ -136,24 +282,19 @@ h1, h2, h3, .h1, .h2, .h3 {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  margin: 2.5rem 0 1.5rem;
+  margin: 2.25rem 0 0.5rem;
 }
 .jl-footer-logo {
-  height: 110px;
+  height: 100px;
   width: auto;
 }
 .jl-footer-cipf {
-  height: 64px;
+  height: 58px;
   width: auto;
   border-radius: 4px;
 }
 .jl-footer-qr {
-  height: 90px;
+  height: 82px;
   width: auto;
   border-radius: 6px;
-}
-.jl-copyright {
-  opacity: 0.6;
-  font-size: 0.85rem;
-  margin-top: 1rem;
 }
