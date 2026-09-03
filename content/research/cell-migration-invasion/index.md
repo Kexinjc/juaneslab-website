@@ -47,21 +47,5 @@ sections:
           position: center
           size: cover
       spacing:
-        padding: ['26px', '0', '26px', '0']
-
-  - block: markdown
-    id: funding
-    content:
-      title: Related funding
-      text: |
-        - Targeting actin protrusions — PREP2022-000642, supporting the PhD thesis of Irene Olivas Cano.
-        - Cytoskeletal Coordination mediated by APC in collective cell migration — CIDEGENT2021/026.
-        - Molecular coordination between cytoskeletal networks in cell migration and its impacts on development and disease — Academy of Medical Sciences, SBF006/1070.
-        - Investigation and modelling of cytoskeletal activity in APC mutated bowel cancer — Teesside University, PhD thesis of Lautaro Baro.
-    design:
-      columns: '1'
-      background:
-        color: '#faf6f0'
-      spacing:
-        padding: ['40px', '0', '48px', '0']
+        padding: ['26px', '0', '48px', '0']
 ---

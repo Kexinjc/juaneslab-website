@@ -207,6 +207,21 @@ a.jl-card:hover {
 .jl-note a:hover {
   text-decoration: underline;
 }
+.jl-funder-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem 2.5rem;
+  margin-top: 1.75rem;
+}
+.jl-funder-logos img {
+  height: 42px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  border-radius: 3px;
+}
 
 // ---- Research line pages ----
 .jl-back-link {

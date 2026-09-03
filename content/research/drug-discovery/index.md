@@ -26,18 +26,5 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['48px', '0', '24px', '0']
-
-  - block: markdown
-    id: funding
-    content:
-      title: Related funding
-      text: |
-        - New therapeutic approaches for colorectal cancer — CNS2024-154649, MICIU/AEI.
-    design:
-      columns: '1'
-      background:
-        color: '#faf6f0'
-      spacing:
-        padding: ['40px', '0', '48px', '0']
+        padding: ['48px', '0', '64px', '0']
 ---

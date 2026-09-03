@@ -40,18 +40,5 @@ sections:
     design:
       columns: '1'
       spacing:
-        padding: ['8px', '0', '40px', '0']
-
-  - block: markdown
-    id: funding
-    content:
-      title: Related funding
-      text: |
-        - Towards understanding the molecular basis of colorectal cancer in young adults — CIACIF/2022/410, Generalitat Valenciana, linked to Rabe'ah Almhassneh.
-    design:
-      columns: '1'
-      background:
-        color: '#faf6f0'
-      spacing:
-        padding: ['40px', '0', '48px', '0']
+        padding: ['8px', '0', '56px', '0']
 ---
