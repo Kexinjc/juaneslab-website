@@ -1,3 +1,14 @@
+// Juanes Lab — custom identity styles (Phase 1: homepage + global identity)
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --jl-gold: #c9a227;
+  --jl-gold-dark: #9c7a1b;
+  --jl-black: #0b0b0c;
+  --jl-cream: #faf6f0;
+}
+
 // Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
   text-align: center;
@@ -6,4 +17,143 @@
 // Center the CTA shortcode button
 .cta-group {
   justify-content: center;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+}
+
+// Research line cards
+.jl-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.75rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+.jl-card {
+  background: var(--jl-cream);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  padding: 1.75rem;
+}
+.jl-card-num {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--jl-gold-dark);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.jl-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+.jl-card p {
+  margin: 0;
+  opacity: 0.85;
+  line-height: 1.5;
+}
+.jl-note {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  font-style: italic;
+  text-align: center;
+}
+
+// Testimonials
+.jl-quote-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+.jl-quote {
+  margin: 0;
+  padding: 1.75rem;
+  background: #fff;
+  border-left: 3px solid var(--jl-gold);
+  border-radius: 4px;
+  font-style: italic;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+.jl-quote p {
+  margin: 0 0 0.75rem;
+  line-height: 1.6;
+}
+.jl-quote cite {
+  font-style: normal;
+  font-weight: 600;
+  opacity: 0.75;
+  font-size: 0.9rem;
+  display: block;
+}
+
+// Full-bleed photo sections (CIPF building, team photo)
+.jl-photo-caption {
+  color: #fff;
+  text-align: center;
+}
+.jl-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+.jl-photo-caption p {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+// Dark contact / footer band
+.jl-footer {
+  text-align: center;
+  color: #fff;
+}
+.jl-footer-title {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.jl-footer-line {
+  margin: 0.35rem 0;
+  opacity: 0.9;
+}
+.jl-footer-line a {
+  color: var(--jl-gold);
+}
+.jl-footer-brand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 2.5rem 0 1.5rem;
+}
+.jl-footer-logo {
+  height: 110px;
+  width: auto;
+}
+.jl-footer-cipf {
+  height: 64px;
+  width: auto;
+  border-radius: 4px;
+}
+.jl-footer-qr {
+  height: 90px;
+  width: auto;
+  border-radius: 6px;
+}
+.jl-copyright {
+  opacity: 0.6;
+  font-size: 0.85rem;
+  margin-top: 1rem;
 }
