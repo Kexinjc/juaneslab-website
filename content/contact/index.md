@@ -15,9 +15,12 @@ sections:
       address:
         street: 'Centro de Investigación Príncipe Felipe (CIPF), Calle de Eduardo Primo Yúfera, 3'
         city: Valencia
-        postcode: '46012'
+        postcode: '46024'
         country: Spain
         country_code: ES
+      coordinates:
+        latitude: '39.453030'
+        longitude: '-0.346906'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
