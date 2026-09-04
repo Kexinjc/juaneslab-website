@@ -18,9 +18,6 @@ sections:
         postcode: '46024'
         country: Spain
         country_code: ES
-      coordinates:
-        latitude: '39.453030'
-        longitude: '-0.346906'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -40,6 +37,19 @@ sections:
           captcha: false
     design:
       columns: '1'
+
+  - block: markdown
+    id: contact-map
+    content:
+      title:
+      text: |
+        <div class="jl-contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.7213230423513!2d-0.34690612330739723!3d39.453030271610764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048faf9003313%3A0x2cc38dab22dacbe9!2sCIPF%20Centro%20de%20Investigaci%C3%B3n%20Pr%C3%ADncipe%20Felipe!5e0!3m2!1ses!2ses!4v1732114005509!5m2!1ses!2ses" width="100%" height="380" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map showing the CIPF building location in Valencia"></iframe>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['0px', '0', '32px', '0']
 
   - block: markdown
     content:

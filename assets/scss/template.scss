@@ -664,3 +664,17 @@ ul.jl-news-items li a {
 ul.jl-news-items li a:hover {
   text-decoration: underline;
 }
+
+/* Contact page: Google Maps embed */
+.jl-contact-map {
+  margin-top: 4px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.16);
+}
+.jl-contact-map iframe {
+  display: block;
+  width: 100%;
+  height: 380px;
+  border: 0;
+}
