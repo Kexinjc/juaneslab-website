@@ -3,9 +3,8 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 #
-# Phase 3 note: Home, Research, Projects, Publications, Team, Calls and News
-# now have real content. Contact remains a mailto link until a dedicated
-# Contact page is built (see project notes).
+# Phase 3 note: Home, Research, Projects, Publications, Team, Calls, News
+# and Contact all have real content/pages now.
 
 main:
   - name: Home
@@ -30,5 +29,5 @@ main:
     url: '/news/'
     weight: 30
   - name: Contact
-    url: 'mailto:majuanes@cipf.es'
+    url: '/contact/'
     weight: 35
