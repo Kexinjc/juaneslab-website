@@ -1,8 +1,8 @@
 ---
-title: 'Aida Rodríguez Jiménez'
+title: 'Kexin Jiang Chen'
 
-first_name: 'Aida'
-last_name: 'Rodríguez Jiménez'
+first_name: 'Kexin'
+last_name: 'Jiang Chen'
 
 superuser: false
 
@@ -21,5 +21,5 @@ email: ''
 highlight_name: false
 
 user_groups:
-  - Former Members
+  - Researchers
 ---

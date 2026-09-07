@@ -1,12 +1,12 @@
 ---
-title: 'Aida Rodríguez Jiménez'
+title: 'Mencía Santamaria Maíques'
 
-first_name: 'Aida'
-last_name: 'Rodríguez Jiménez'
+first_name: 'Mencía'
+last_name: 'Santamaria Maíques'
 
 superuser: false
 
-role: 'Research Assistant'
+role: 'Summer student (Ciclo Formativo)'
 
 organizations:
   - name: Juanes Lab, CIPF
