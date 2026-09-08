@@ -4,6 +4,8 @@ title: 'Marta Rambla Aguilar'
 first_name: 'Marta'
 last_name: 'Rambla Aguilar'
 
+weight: 17
+
 superuser: false
 
 role: 'Student'

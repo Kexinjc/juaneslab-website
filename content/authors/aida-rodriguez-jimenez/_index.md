@@ -4,6 +4,8 @@ title: 'Aida Rodríguez Jiménez'
 first_name: 'Aida'
 last_name: 'Rodríguez Jiménez'
 
+weight: 18
+
 superuser: false
 
 role: 'Research Assistant'

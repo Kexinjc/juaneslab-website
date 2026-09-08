@@ -4,6 +4,8 @@ title: 'Amparo Andres'
 first_name: 'Amparo'
 last_name: 'Andres'
 
+weight: 1
+
 superuser: false
 
 role: 'Research Associate'

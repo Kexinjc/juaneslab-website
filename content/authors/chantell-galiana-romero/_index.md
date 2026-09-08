@@ -4,6 +4,8 @@ title: 'Chantell Galiana Romero'
 first_name: 'Chantell'
 last_name: 'Galiana Romero'
 
+weight: 8
+
 superuser: false
 
 role: 'Student'

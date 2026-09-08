@@ -4,6 +4,8 @@ title: 'Rabe''ah Almhassneh'
 first_name: 'Rabe''ah'
 last_name: 'Almhassneh'
 
+weight: 1
+
 superuser: false
 
 role: 'PhD student'

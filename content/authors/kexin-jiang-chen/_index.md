@@ -4,6 +4,8 @@ title: 'Kexin Jiang Chen'
 first_name: 'Kexin'
 last_name: 'Jiang Chen'
 
+weight: 3
+
 superuser: false
 
 role: 'Research Assistant'

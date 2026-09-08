@@ -4,6 +4,8 @@ title: 'Mohammed Moustapha Anwar'
 first_name: 'Mohammed'
 last_name: 'Moustapha Anwar'
 
+weight: 2
+
 superuser: false
 
 role: 'PhD student'

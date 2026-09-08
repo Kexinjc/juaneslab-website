@@ -4,6 +4,8 @@ title: 'Adriana Mena Romero'
 first_name: 'Adriana'
 last_name: 'Mena Romero'
 
+weight: 13
+
 superuser: false
 
 role: 'Research Associate'

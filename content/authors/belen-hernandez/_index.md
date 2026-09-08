@@ -4,6 +4,8 @@ title: 'Belén Hernández'
 first_name: 'Belén'
 last_name: 'Hernández'
 
+weight: 9
+
 superuser: false
 
 role: 'Student'

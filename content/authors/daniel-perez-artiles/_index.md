@@ -4,6 +4,8 @@ title: 'Daniel Pérez Artiles'
 first_name: 'Daniel'
 last_name: 'Pérez Artiles'
 
+weight: 14
+
 superuser: false
 
 role: 'Internship student'

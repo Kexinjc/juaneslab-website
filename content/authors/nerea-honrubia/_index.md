@@ -4,6 +4,8 @@ title: 'Nerea Honrubia'
 first_name: 'Nerea'
 last_name: 'Honrubia'
 
+weight: 10
+
 superuser: false
 
 role: 'Student'

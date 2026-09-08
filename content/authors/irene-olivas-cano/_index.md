@@ -4,6 +4,8 @@ title: 'Irene Olivas Cano'
 first_name: 'Irene'
 last_name: 'Olivas Cano'
 
+weight: 3
+
 superuser: false
 
 role: 'PhD student'

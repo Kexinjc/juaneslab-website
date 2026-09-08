@@ -4,6 +4,8 @@ title: 'Amanda Alarcón'
 first_name: 'Amanda'
 last_name: 'Alarcón'
 
+weight: 2
+
 superuser: false
 
 role: 'Student'

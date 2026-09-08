@@ -4,6 +4,8 @@ title: 'Judith Carpintero Basalo'
 first_name: 'Judith'
 last_name: 'Carpintero Basalo'
 
+weight: 6
+
 superuser: false
 
 role: 'Student'

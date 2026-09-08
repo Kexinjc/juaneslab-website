@@ -4,6 +4,8 @@ title: 'Maria Boix Canet'
 first_name: 'Maria'
 last_name: 'Boix Canet'
 
+weight: 5
+
 superuser: false
 
 role: 'Internship student'

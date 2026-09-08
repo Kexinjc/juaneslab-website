@@ -4,6 +4,8 @@ title: 'Pablo Almela Mir'
 first_name: 'Pablo'
 last_name: 'Almela Mir'
 
+weight: 3
+
 superuser: false
 
 role: 'Internship student'

@@ -4,6 +4,8 @@ title: 'Maria Abril Sanz'
 first_name: 'Maria'
 last_name: 'Abril Sanz'
 
+weight: 1
+
 superuser: false
 
 role: 'Student'

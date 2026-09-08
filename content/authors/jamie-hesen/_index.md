@@ -1,14 +1,14 @@
 ---
-title: 'María Piquer Rosell'
+title: 'Jamie Hesen'
 
-first_name: 'María'
-last_name: 'Piquer Rosell'
+first_name: 'Jamie'
+last_name: 'Hesen'
 
-weight: 16
+weight: 1
 
 superuser: false
 
-role: 'Student'
+role: "Master's Student"
 
 organizations:
   - name: Juanes Lab, CIPF
@@ -23,5 +23,5 @@ email: ''
 highlight_name: false
 
 user_groups:
-  - Former Members
+  - Students
 ---

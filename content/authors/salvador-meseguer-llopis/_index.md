@@ -4,6 +4,8 @@ title: 'Salvador Meseguer Llopis'
 first_name: 'Salvador'
 last_name: 'Meseguer Llopis'
 
+weight: 2
+
 superuser: false
 
 role: 'Research Associate/PDRA'

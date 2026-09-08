@@ -4,6 +4,8 @@ title: 'María Ángeles Juanes'
 first_name: 'María'
 last_name: 'Ángeles Juanes'
 
+weight: 1
+
 superuser: true
 
 role: 'Group leader'

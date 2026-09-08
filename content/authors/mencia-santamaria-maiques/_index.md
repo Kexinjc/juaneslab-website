@@ -4,6 +4,8 @@ title: 'Mencía Santamaria Maíques'
 first_name: 'Mencía'
 last_name: 'Santamaria Maíques'
 
+weight: 20
+
 superuser: false
 
 role: 'Summer student (Ciclo Formativo)'
