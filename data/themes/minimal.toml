@@ -1,0 +1,27 @@
+# Site override of the default HugoBlox "Minimal" theme.
+# Only change from the module's default: `primary` (light mode) is set to the
+# Juanes Lab gold instead of the HugoBlox default blue (#1565c0). This is the
+# color used for the mobile browser's status-bar tint (<meta name="theme-color">)
+# and for plain, unstyled links (e.g. DOI links on the Publications page).
+name = "Minimal"
+
+[light]
+  # Primary
+  primary = "#9c7a1b"
+
+  # Menu
+  menu_primary = "#fff"
+  menu_text = "#34495e"
+  menu_text_active = "#2962ff"
+  menu_title = "#2b2b2b"
+
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(247, 247, 247)"
+
+[dark]
+  # Primary
+  primary = "#bbdefb"
+
+  link = "#bbdefb"
+  link_hover = "#bbdefb"
