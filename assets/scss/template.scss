@@ -340,17 +340,41 @@ hr.jl-project-sep {
 #publications-list .col-12 h4:first-of-type {
   margin-top: 0;
 }
-#publications-list .col-12 ul {
-  padding-left: 1.35rem;
-  margin-bottom: 0.5rem;
+.jl-pub-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
-#publications-list .col-12 li {
+.jl-pub-item:last-child {
+  border-bottom: none;
+}
+.jl-pub-thumb {
+  flex: 0 0 84px;
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+  background: var(--jl-cream);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 5px;
+}
+.jl-pub-text {
+  flex: 1 1 auto;
+  min-width: 0;
   font-size: 0.88rem;
   line-height: 1.7;
-  margin-bottom: 1.05rem;
 }
-#publications-list .col-12 li:last-child {
-  margin-bottom: 0;
+.jl-pub-text p {
+  margin: 0;
+}
+@media (max-width: 560px) {
+  .jl-pub-thumb {
+    flex-basis: 60px;
+    width: 60px;
+    height: 60px;
+  }
 }
 
 // ---- Research line pages ----
