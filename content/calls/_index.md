@@ -7,7 +7,7 @@ sections:
   - block: markdown
     id: calls-intro
     content:
-      title: Calls
+      title: Join Us!
       subtitle: Funding opportunities for postdoctoral and PhD researchers
       text:
     design:
