@@ -720,3 +720,8 @@ ul.jl-news-items li a:hover {
   height: 380px;
   border: 0;
 }
+
+/* Team member profile page: vertically center the bio next to the photo/name column */
+#profile-page .container > .row {
+  align-items: center;
+}
