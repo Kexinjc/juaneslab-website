@@ -721,13 +721,14 @@ ul.jl-news-items li a:hover {
   border: 0;
 }
 
-/* Team member profile page: vertically center the bio next to the photo/name column,
-   nudged up slightly rather than dead-center */
+/* Team member profile page: align the bio with the top of the photo.
+   #profile has 30px of top padding (theme default) before the photo starts,
+   so the bio column needs the same offset to line up with the image itself. */
 #profile-page .container > .row {
-  align-items: center;
+  align-items: flex-start;
 }
 #profile-page .container > .row > .col-lg-8 {
-  margin-top: -2rem;
+  margin-top: 30px;
 }
 @media (max-width: 991px) {
   #profile-page .container > .row > .col-lg-8 {
