@@ -33,6 +33,7 @@ sections:
 
         #### 2024
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2024-bud6-bil2-pheromone.jpg" >}}" alt="Electron micrograph of yeast cells with actin patches, associated with the 2024 Molecular Biology of the Cell paper on yeast formins Bud6 and Bil2" loading="lazy" />
         <div class="jl-pub-text">
 
         *The roles of yeast formins and their regulators Bud6 and Bil2 in the pheromone response.* Magliozzi J.O., Rands T.J., Shrestha S., Simke W.C., Hase N.E., Juanes M.A., Kelley J.B., Goode B.L. **Molecular Biology of the Cell.** [DOI: 10.1091/mbc.E23-11-0459](https://doi.org/10.1091/mbc.E23-11-0459)
@@ -112,6 +113,7 @@ sections:
 
         #### 2018
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2018-mitotic-exit-septin.jpg" >}}" alt="Figure associated with the 2018 Nature Communications paper on mitotic exit network recruitment and septin displacement" loading="lazy" />
         <div class="jl-pub-text">
 
         *Recruitment of the mitotic exit network to yeast centrosomes couples septin displacement to actomyosin constriction.* Tamborrini D., Juanes M.A., Ibanes S., Rancati G., Piatti S. **Nature Communications.** [DOI: 10.1038/s41467-018-06767-0](https://doi.org/10.1038/s41467-018-06767-0)
@@ -121,6 +123,7 @@ sections:
 
         #### 2017
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2017-profilin-model.jpg" >}}" alt="Model diagram of profilin, actin, formins and Arp2/3, associated with the 2017 Current Biology paper on profilin and microtubule growth" loading="lazy" />
         <div class="jl-pub-text">
 
         *Profilin Directly Promotes Microtubule Growth through Residues Mutated in Amyotrophic Lateral Sclerosis.* Henty-Ridilla J.L., Juanes M.A., Goode B.L. **Current Biology**, 27(22), pp. 3535–3543. [DOI: 10.1016/j.cub.2017.10.002](https://doi.org/10.1016/j.cub.2017.10.002)
@@ -128,6 +131,7 @@ sections:
         </div>
         </div>
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2017-apc-actin-assembly.jpg" >}}" alt="APC mutant panel associated with the 2017 Journal of Cell Biology paper on APC-nucleated actin assembly" loading="lazy" />
         <div class="jl-pub-text">
 
         *Adenomatous polyposis coli nucleates actin assembly to drive cell migration and microtubule-induced focal adhesion turnover.* Juanes M.A.\*, Bouguenina H., Eskin J.A., Jaiswal R., Badache A., Goode B.L. (\*co-corresponding author). **Journal of Cell Biology**, 216(9), pp. 2859–2875. [DOI: 10.1083/jcb.201702007](https://doi.org/10.1083/jcb.201702007)
@@ -153,7 +157,7 @@ sections:
 
         #### 2016
         <div class="jl-pub-item">
-        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2016-dma1-dma2-formin.jpg" >}}" alt="Figure from the 2016 Genetics paper on Dma1/Dma2 control of formin distribution, labeled GAL1-DMA2" loading="lazy" />
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2016-dma1-dma2-actin.jpg" >}}" alt="F-actin panel of dma1(delta) dma2(delta) yeast cells, associated with the 2016 Genetics paper on Dma1/Dma2 control of formin distribution" loading="lazy" />
         <div class="jl-pub-text">
 
         *Control of Formin Distribution and Actin Cable Assembly by the E3 Ubiquitin-Ligases Dma1 and Dma2.* Juanes M.A., Piatti S. **Genetics.** [DOI: 10.1534/genetics.116.189258](https://doi.org/10.1534/genetics.116.189258)
@@ -161,6 +165,7 @@ sections:
         </div>
         </div>
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2016-entangled-cytokinesis.jpg" >}}" alt="Protein structure ribbon diagram, associated with the 2016 PostDoctoral Journal paper on cytokinesis protein complexes" loading="lazy" />
         <div class="jl-pub-text">
 
         *Entangled but finicky ingression protein complexes for successful cytokinesis.* Juanes M.A.\* (\*corresponding author). **PostDoctoral Journal.** [DOI: 10.14304/SURYA.JPR.V4N5.5](https://doi.org/10.14304/SURYA.JPR.V4N5.5)
@@ -168,6 +173,7 @@ sections:
         </div>
         </div>
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2016-final-cut-budneck.jpg" >}}" alt="Schematic of actin cables at the bud neck, associated with the 2016 CMLS review on cell polarity and cytokinesis" loading="lazy" />
         <div class="jl-pub-text">
 
         *The final cut: cell polarity meets cytokinesis at the bud neck in S. cerevisiae.* Juanes M.A., Piatti S. **Cellular and Molecular Life Sciences.** [DOI: 10.1007/s00018-016-2220-3](https://doi.org/10.1007/s00018-016-2220-3)
