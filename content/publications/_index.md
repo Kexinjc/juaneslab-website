@@ -135,6 +135,7 @@ sections:
         </div>
         </div>
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2017-rot1-erad.jpg" >}}" alt="Diagram from the 2017 PostDoctoral Journal paper showing Rot1 in the ER-associated degradation (ERAD) pathway" loading="lazy" />
         <div class="jl-pub-text">
 
         *Rot1, an essential yeast protein, is degraded through the ER-associated protein degradation system (ERAD).* Juanes M.A.\*, Martinez-Garay C., Bañó M.C.\* (\*co-corresponding authors). **PostDoctoral Journal.** [DOI: 10.14304/SURYA.JPR.V5N11.2](https://doi.org/10.14304/SURYA.JPR.V5N11.2)
