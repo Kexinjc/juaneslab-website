@@ -85,25 +85,6 @@ sections:
       columns: '1'
 
   - block: markdown
-    id: texture-divider
-    content:
-      title:
-      text: |
-        <p class="jl-texture-caption">Actin cytoskeleton, confocal microscopy — Juanes Lab</p>
-    design:
-      columns: '1'
-      background:
-        image:
-          filename: cytoskeleton-texture.png
-          filters:
-            brightness: 0.55
-          parallax: false
-          position: center
-          size: cover
-      spacing:
-        padding: ['26px', '0', '26px', '0']
-
-  - block: markdown
     id: cipf
     content:
       title:
@@ -124,7 +105,7 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['130px', '0', '130px', '0']
+        padding: ['190px', '0', '190px', '0']
 
   - block: markdown
     id: testimonials
@@ -172,11 +153,11 @@ sections:
           filters:
             brightness: 0.85
           parallax: false
-          position: center
+          position: top
           size: cover
           text_color_light: true
       spacing:
-        padding: ['110px', '0', '110px', '0']
+        padding: ['300px', '0', '90px', '0']
 
   - block: markdown
     id: contact

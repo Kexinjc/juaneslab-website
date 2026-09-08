@@ -395,18 +395,10 @@ hr.jl-project-sep {
   margin-bottom: 0.35rem;
 }
 
-// ---- Texture divider ----
-.jl-texture-caption {
-  margin: 0;
-  text-align: right;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
-}
-
 // ---- CIPF photo section ----
 .jl-scrim {
-  display: inline-block;
+  display: table;
+  margin: 0 auto;
   background: rgba(0, 0, 0, 0.45);
   backdrop-filter: blur(2px);
   padding: 1.5rem 2.25rem;
@@ -500,12 +492,17 @@ hr.jl-project-sep {
 
 // ---- Full-bleed photo sections ----
 .jl-photo-caption {
-  color: #fff;
   text-align: center;
 }
 .jl-photo-caption p {
+  display: table;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+  padding: 0.6rem 1.4rem;
+  border-radius: 10px;
+  color: #fff;
   font-size: 1.05rem;
-  margin: 0;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
