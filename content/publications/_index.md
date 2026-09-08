@@ -152,6 +152,7 @@ sections:
 
         #### 2016
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2016-dma1-dma2-formin.jpg" >}}" alt="Figure from the 2016 Genetics paper on Dma1/Dma2 control of formin distribution, labeled GAL1-DMA2" loading="lazy" />
         <div class="jl-pub-text">
 
         *Control of Formin Distribution and Actin Cable Assembly by the E3 Ubiquitin-Ligases Dma1 and Dma2.* Juanes M.A., Piatti S. **Genetics.** [DOI: 10.1534/genetics.116.189258](https://doi.org/10.1534/genetics.116.189258)
@@ -173,6 +174,7 @@ sections:
         </div>
         </div>
         <div class="jl-pub-item">
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2016-greatwall-pathway.jpg" >}}" alt="Figure from the 2016 PostDoctoral Journal paper showing the Greatwall kinase (GWL) signaling pathway" loading="lazy" />
         <div class="jl-pub-text">
 
         *Greatwall kinase oncogenic properties open new horizons for novel human cancer therapies.* Juanes M.A.\* (\*corresponding author). **PostDoctoral Journal.** [DOI: 10.14304/surya.jpr.v4n3.5](https://doi.org/10.14304/surya.jpr.v4n3.5)
