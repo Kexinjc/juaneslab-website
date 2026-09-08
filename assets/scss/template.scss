@@ -78,8 +78,10 @@ h1, h2, h3, .h1, .h2, .h3 {
 .jl-hero-ctas {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.9rem;
   margin-top: 0.5rem;
+}
+.jl-hero-ctas a.jl-btn {
+  margin: 0 0.9rem 0.9rem 0;
 }
 a.jl-btn,
 a.jl-btn:hover,
