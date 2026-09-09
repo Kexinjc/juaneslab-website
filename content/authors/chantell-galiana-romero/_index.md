@@ -8,7 +8,7 @@ weight: 8
 
 superuser: false
 
-role: 'Student'
+role: 'Summer Intern'
 
 organizations:
   - name: Juanes Lab, CIPF

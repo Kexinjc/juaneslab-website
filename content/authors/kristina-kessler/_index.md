@@ -8,7 +8,7 @@ weight: 12
 
 superuser: false
 
-role: 'Erasmus Student'
+role: 'Master’s Thesis Student (TFM)'
 
 organizations:
   - name: Juanes Lab, CIPF

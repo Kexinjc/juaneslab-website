@@ -8,7 +8,7 @@ weight: 5
 
 superuser: false
 
-role: 'Internship student'
+role: 'Vocational Training Student (CF)'
 
 organizations:
   - name: Juanes Lab, CIPF

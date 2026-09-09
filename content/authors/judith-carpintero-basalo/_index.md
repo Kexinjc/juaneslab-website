@@ -8,7 +8,7 @@ weight: 6
 
 superuser: false
 
-role: 'Student'
+role: 'AECC Summer Research Fellow'
 
 organizations:
   - name: Juanes Lab, CIPF

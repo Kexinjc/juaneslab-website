@@ -8,7 +8,7 @@ weight: 3
 
 superuser: false
 
-role: 'Internship student'
+role: 'Bachelor’s Thesis Student (TFG)'
 
 organizations:
   - name: Juanes Lab, CIPF

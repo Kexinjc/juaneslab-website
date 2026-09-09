@@ -8,7 +8,7 @@ weight: 20
 
 superuser: false
 
-role: 'Summer student (Ciclo Formativo)'
+role: 'Vocational Training Student (CF)'
 
 organizations:
   - name: Juanes Lab, CIPF

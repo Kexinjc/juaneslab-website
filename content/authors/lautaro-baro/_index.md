@@ -8,7 +8,7 @@ weight: 4
 
 superuser: false
 
-role: 'PhD'
+role: 'PhD Student'
 
 organizations:
   - name: Juanes Lab, CIPF

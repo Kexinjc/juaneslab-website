@@ -16,7 +16,10 @@ organizations:
 
 interests: []
 
-social: []
+social:
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/kexin-jiang-chen/'
 
 email: ''
 
