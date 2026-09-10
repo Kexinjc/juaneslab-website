@@ -10,7 +10,9 @@ sections:
       title: Publications
       subtitle:
       text: |
-        Selected publications from the Juanes Lab and its members, listed most recent first.
+        <p style="text-align: center;">
+          Selected publications from the Juanes Lab and its members, listed most recent first.
+        </p>
     design:
       columns: '1'
       spacing:
@@ -21,6 +23,8 @@ sections:
     content:
       title:
       text: |
+        <div style="height: 30px;"></div>
+        
         #### 2026
         <div class="jl-pub-item">
         <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2026-migrastatics-review.jpg" >}}" alt="Diagram from the 2026 Frontiers in Oncology mini-review on migrastatics and cancer cell dissemination" loading="lazy" />

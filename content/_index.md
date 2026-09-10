@@ -105,7 +105,7 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['190px', '0', '190px', '0']
+        padding: ['220px', '0', '190px', '0']
 
   - block: markdown
     id: testimonials
@@ -142,7 +142,7 @@ sections:
     content:
       title:
       text: |
-        <div class="jl-photo-caption">
+        <div class="jl-photo-caption jl-team-photo-caption">
           <p>Members of the Juanes Lab at CIPF, Valencia.</p>
         </div>
     design:
@@ -157,7 +157,7 @@ sections:
           size: cover
           text_color_light: true
       spacing:
-        padding: ['300px', '0', '90px', '0']
+        padding: ['400px', '0', '90px', '0']
 
   - block: markdown
     id: contact

@@ -10,7 +10,9 @@ sections:
       title: Projects
       subtitle: Grants and fellowships supporting the lab's research
       text: |
-        The Juanes Lab is supported by competitive regional, national and international funding. These projects enable us to investigate the molecular mechanisms underlying cell migration, cancer invasion and colorectal cancer, while supporting the training and development of early-career researchers.
+        <p style="text-align: center;">
+          The Juanes Lab is supported by competitive regional, national and international funding. These projects enable us to investigate the molecular mechanisms underlying cell migration, cancer invasion and colorectal cancer, while supporting the training and development of early-career researchers.
+        </p>
     design:
       columns: '1'
       spacing:
@@ -21,6 +23,8 @@ sections:
     content:
       title:
       text: |
+        <div style="height: 30px;"></div>
+
         ### New therapeutic approaches for colorectal cancer
         <p class="jl-project-sponsor">CNS2024-154649 — Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación (MICIU/AEI)</p>
 
@@ -126,7 +130,10 @@ sections:
     content:
       title: Funding and support
       text: |
-        We gratefully acknowledge the organisations that have supported our research, training and scientific development.
+        <p style="text-align: center;">
+          We gratefully acknowledge the organisations that have supported our research, training and scientific development.
+        </p>
+        
         <div class="jl-funder-logos">
           <img src="{{< relurl "/media/cipf-logo.png" >}}" alt="CIPF — Centro de Investigación Príncipe Felipe" loading="lazy" />
           <img src="{{< relurl "/media/funder-eacr.png" >}}" alt="EACR — European Association for Cancer Research" loading="lazy" />
