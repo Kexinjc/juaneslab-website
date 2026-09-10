@@ -130,7 +130,7 @@ sections:
           <img src="{{< relurl "/media/funder-embo.png" >}}" alt="EMBO" loading="lazy" />
           <img src="{{< relurl "/media/funder-miciu-aei.jpg" >}}" alt="MICIU — Agencia Estatal de Investigación" loading="lazy" />
           <img src="{{< relurl "/media/funder-ams.jpg" >}}" alt="The Academy of Medical Sciences" loading="lazy" />
-          <img src="{{< relurl "/media/funder-gva-azul.png" >}}" alt="Generalitat Valenciana" loading="lazy" />
+          <img class="funder-gva" src="{{< relurl "/media/funder-gva-azul.png" >}}" alt="Generalitat Valenciana" loading="lazy" />
           <img src="{{< relurl "/media/funder-eu.png" >}}" alt="European Union" loading="lazy" />
           <img src="{{< relurl "/media/funder-gent.jpg" >}}" alt="Gen-T" loading="lazy" />
         </div>

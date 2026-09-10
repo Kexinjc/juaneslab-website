@@ -253,6 +253,9 @@ a.jl-card:hover {
   object-fit: contain;
   border-radius: 3px;
 }
+.jl-funder-logos .funder-gva {
+  transform: scale(1.15);
+}
 
 // ---- Projects page ----
 #projects-list .col-12 > p {
