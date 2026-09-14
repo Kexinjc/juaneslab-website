@@ -1,6 +1,12 @@
 # IDEs
 .idea/
 
+# macOS
+.DS_Store
+
+# Hugo build lock
+.hugo_build.lock
+
 # Hugo
 /resources/
 public/
