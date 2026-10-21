@@ -27,18 +27,18 @@ sections:
         
         #### 2026
         <div class="jl-pub-item">
-        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2026-migrastatics-review.jpg" >}}" alt="Diagram from the 2026 Frontiers in Oncology mini-review on migrastatics and cancer cell dissemination" loading="lazy" />
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2026-sak1-separase-mitosis.jpg" >}}" alt="Confocal micrographs of budding yeast cells from the 2026 Journal of Cell Biology paper on Sak1-mediated separase activation" loading="lazy" />
         <div class="jl-pub-text">
 
-        *Migrastatics: an overview of the current scenario and future cancer treatments.* Olivas-Cano I., Juanes M.A. **Frontiers in Oncology**, 16:1907560. [DOI: 10.3389/fonc.2026.1907560](https://doi.org/10.3389/fonc.2026.1907560)
+        *The AMPK kinase Sak1 activates separase and promotes its nuclear localization during mitosis.* Vaquero D., Rodriguez-Rodriguez J.A., Ilinca M.C., Casas-Fernandez E., Picard A., Del Caño-Ochoa F., Vernia I., Gabaldon T., Juanes M.A., Queralt E. **Journal of Cell Biology**, 225(11):e202505056. [DOI: 10.1083/jcb.202505056](https://rupress.org/jcb/article/225/11/e202505056/283093/The-AMPK-kinase-Sak1-activates-separase-and)
 
         </div>
         </div>
         <div class="jl-pub-item">
-        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2026-sak1-separase-mitosis.jpg" >}}" alt="Confocal micrographs of budding yeast cells from the 2026 Journal of Cell Biology paper on Sak1-mediated separase activation" loading="lazy" />
+        <img class="jl-pub-thumb" src="{{< relurl "/media/publication-2026-migrastatics-review.jpg" >}}" alt="Diagram from the 2026 Frontiers in Oncology mini-review on migrastatics and cancer cell dissemination" loading="lazy" />
         <div class="jl-pub-text">
 
-        *The AMPK kinase Sak1 activates separase and promotes its nuclear localization during mitosis.* Vaquero D., Rodriguez-Rodriguez J.A., Ilinca M.C., Casas-Fernandez E., Picard A., Del Caño-Ochoa F., Vernia I., Gabaldon T., Juanes M.A., Queralt E. **Journal of Cell Biology** (in press). [DOI: 10.1083/jcb.202505056](https://doi.org/10.1083/jcb.202505056)
+        *Migrastatics: an overview of the current scenario and future cancer treatments.* Olivas-Cano I., Juanes M.A. **Frontiers in Oncology**, 16:1907560. [DOI: 10.3389/fonc.2026.1907560](https://doi.org/10.3389/fonc.2026.1907560)
 
         </div>
         </div>

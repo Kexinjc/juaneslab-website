@@ -28,7 +28,7 @@ sections:
         ### New therapeutic approaches for colorectal cancer
         <p class="jl-project-sponsor">CNS2024-154649 — Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación (MICIU/AEI)</p>
 
-        This two-year project supports the consolidation of the Juanes Lab and the development of new therapeutic approaches for colorectal cancer, with a particular focus on drug discovery.
+        This project supports the consolidation of the Juanes Lab and the development of new therapeutic approaches for colorectal cancer, with a particular focus on drug discovery.
 
         <hr class="jl-project-sep" />
 

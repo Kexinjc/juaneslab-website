@@ -23,16 +23,17 @@ sections:
         <div class="jl-project-row">
         <div class="jl-project-copy">
 
-        ### European Researchers' Night is coming to CIPF!
-        <p class="jl-project-sponsor">25th September</p>
+        ### The Juanes Lab in NostraCiència
+        <p class="jl-project-sponsor">"Vivir Mejor" section · June 2026</p>
 
-        The lab is taking part in this year's European Researchers' Night, right here at CIPF — come and see what our research is about! That same afternoon we're also joining "La Nit de la Investigació": bring the family and prepare your own "plat del dia: una cèl·lula colorida" (colourful cell)!
+        Our lab has been featured in the "Vivir Mejor" section of <a href="https://nostraciencia.com/2026/06/29/maria-angeles-juanes-ortiz/" target="_blank" rel="noopener">NostraCiència</a>, the science outreach platform run by the Generalitat Valenciana and RUVID, in the article *"Cuando el andamiaje de la célula se convierte en arma"* (When the cell's scaffolding becomes a weapon).
 
-        The event is coordinated regionally with organizations including the "la Caixa" Foundation and Esciencia.
+        The piece explains how we study the way cancer cells move and invade surrounding tissue, and how we are searching for new ways to stop them. <a href="https://nostraciencia.com/2026/06/29/maria-angeles-juanes-ortiz/" target="_blank" rel="noopener">Read the full article</a>.
 
         </div>
         <div class="jl-project-media">
-          <img src="{{< relurl "/media/news-research-night-2026.jpg" >}}" alt="Cell-model craft activity from a past outreach event at CIPF" loading="lazy" />
+          <a href="https://nostraciencia.com/2026/06/29/maria-angeles-juanes-ortiz/" target="_blank" rel="noopener"><img src="{{< relurl "/media/news-nostraciencia-2026.jpg" >}}" alt="Fluorescence image of cancer cells with their cytoskeleton labelled, above a photo of the Juanes Lab team outside CIPF" loading="lazy" /></a>
+          <p>Images: NostraCiència</p>
         </div>
         </div>
     design:
@@ -47,11 +48,19 @@ sections:
       text: |
         <div class="jl-news-year">2026</div>
 
+        <div class="jl-news-month">October</div>
+        <ul class="jl-news-items">
+        <li>Salva presented his work at the EACR conference <a href="https://www.eacr.org/conference/cancermetabolism2026/index" target="_blank" rel="noopener">"Cancer Metabolism"</a> in Bilbao.</li>
+        <li>Mohammed Anwar has completed his time in the lab and is starting a postdoc in <a href="https://faculty.mdanderson.org/profiles/irfan_asangani.html" target="_blank" rel="noopener">Dr. Irfan Asangani's lab</a> at UT MD Anderson Cancer Center. Congratulations and all the best, Mohammed!</li>
+        <li>Aurora Fanzi is defending her Master's thesis at the University of Siena, Italy. Good luck, Aurora!</li>
+        </ul>
+
         <div class="jl-news-month">September</div>
         <ul class="jl-news-items">
         <li>We're delighted to welcome Kexin, who has joined the lab!</li>
         <li>Jamie Hesen (from the Netherlands) and Katharina Krebs (from Vienna) will join the lab as Master's students this month. Welcome to both!</li>
         <li>Rabeah will defend her PhD thesis at CIPF on 25th September — congratulations!</li>
+        <li>The lab took part in this year's European Researchers' Night (25th September), right here at CIPF — an event coordinated with the "la Caixa" Foundation and Esciencia.</li>
         </ul>
 
         <div class="jl-news-month">July</div>
